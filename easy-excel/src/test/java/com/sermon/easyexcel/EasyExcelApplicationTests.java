@@ -1,4 +1,4 @@
-package com.sermon.easyexecl;
+package com.sermon.easyexcel;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EasyExeclApplicationTests {
+public class EasyExcelApplicationTests {
 
     @Test
     public void contextLoads() {

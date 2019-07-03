@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.sermon</groupId>
-    <artifactId>easy-execl</artifactId>
+    <artifactId>easy-excel</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>easy-execl</name>
-    <description>布道师系列，使用阿里的easy-execl导入导出execl</description>
+    <name>easy-excel</name>
+    <description>布道师系列，使用阿里的easy-excel导入导出excel</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,6 +22,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>1.1.2-beta4</version>
         </dependency>
 
         <dependency>
