@@ -12,5 +12,4 @@ public class EasyExcelApplication {
     public static void main(String[] args) {
         SpringApplication.run(EasyExcelApplication.class, args);
     }
-
 }
